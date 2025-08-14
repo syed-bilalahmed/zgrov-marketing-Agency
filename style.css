@@ -1,0 +1,52 @@
+
+  html{
+    scroll-behavior: smooth;
+  }
+    /* Image hover effect */
+    section img:hover {
+      transform: scale(1.03);
+    }
+  
+  
+/* Position both buttons in same vertical column */
+#scroll-top {
+    position: fixed;
+    bottom: 90px; /* higher so WhatsApp is below it */
+    right: 20px;
+    z-index: 999999;
+    width: 45px;
+    height: 45px;
+    background: #007bff;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 24px;
+    transition: transform 0.2s ease;
+}
+
+#scroll-top:hover {
+    transform: scale(1.1);
+}
+
+/* WhatsApp button */
+#whatsapp-button {
+    position: fixed;
+    bottom: 30px; /* directly under scroll button */
+    left: 20px;
+    z-index: 999999;
+}
+
+#whatsapp-button img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background: #25D366;
+    padding: 8px;
+    transition: transform 0.2s ease;
+}
+
+#whatsapp-button img:hover {
+    transform: scale(1.1);
+}
