@@ -1,0 +1,10 @@
+RewriteEngine On
+RewriteBase /zgrov/
+
+# Rewrite /services → services.php
+RewriteRule ^services$ services.php [L]
+
+# Rewrite /about → about.php
+RewriteRule ^about$ about.php [L]
+
+# Add more as needed...

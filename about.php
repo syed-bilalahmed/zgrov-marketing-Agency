@@ -33,7 +33,7 @@
         <a href="#contact" class="btn btn-outline-success">Contact Us</a>
       </div>
       <div class="col-lg-6 text-center" data-aos="fade-left">
-  <img src="about-us.jpg" 
+  <img src="images/about-us.jpg" 
        alt="Grow Business" 
        class="img-fluid" 
        style="border-radius: 0; box-shadow: none; transition: transform 0.3s ease;"

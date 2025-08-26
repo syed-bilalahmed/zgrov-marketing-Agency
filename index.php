@@ -1,3 +1,18 @@
+<style>
+.client-logo {
+  aspect-ratio: 1/ 1;   /* keeps width:height = 5:1 */
+  width: 300px;          /* increase to make larger */
+  object-fit: contain;   /* keeps image from stretching */
+  background: #fff;      /* optional background */
+  padding: 8px;          /* space around logo */
+  border-radius: 6px;    /* smooth corners */
+  display: block;
+  margin: 0 auto;        /* center align */
+}
+
+
+
+</style>
 <?php include('header.php'); ?>
 
 <body class="index-page">
@@ -171,63 +186,109 @@
     </section>
 
     <!-- Clients Section -->
-    <section id="clients" class="clients section">
+<section id="clients" class="clients section">
 
+  <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
 
-      <div class="container section-title" data-aos="fade-up" data-aos-delay="100">
+    <h2>Clients</h2>
 
-        <h2>Clients</h2>
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 2,
+              "spaceBetween": 20
+            },
+            "480": {
+              "slidesPerView": 3,
+              "spaceBetween": 30
+            },
+            "640": {
+              "slidesPerView": 4,
+              "spaceBetween": 40
+            },
+            "992": {
+              "slidesPerView": 6,
+              "spaceBetween": 60
             }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="testimonial1.jpg" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="testimonial2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
+          }
+        }
+      </script>
+
+      <div class="swiper-wrapper align-items-center">
+
+        <!-- Full Discount -->
+        <div class="swiper-slide text-center">
+          <img src="images/testimonial1.jpg" class="img-fluid client-logo" alt="full discount client">
+          <h6 class="mt-2">
+            <a href="https://fulldicount.com" target="_blank">Full Discount</a>
+          </h6>
+        </div>
+
+        <!-- Heritress -->
+        <div class="swiper-slide text-center">
+          <img src="images/testimonial2.png" class="img-fluid client-logo" alt="heritress client">
+          <h6 class="mt-2">
+            <a href="https://heritress.com" target="_blank">Heritress</a>
+          </h6>
+        </div>
+
+        <!-- PScoders -->
+        <div class="swiper-slide text-center">
+          <img src="pscoders.png" class="img-fluid client-logo" alt="pscoders client">
+          <h6 class="mt-2">
+            <a href="https://pscoders.com" target="_blank">PScoders</a>
+          </h6>
+        </div>
+
+        <!-- Awgzo -->
+        <div class="swiper-slide text-center">
+          <img src="awgzo.jpg" class="img-fluid client-logo" alt="awgzo client">
+          <h6 class="mt-2">
+            <a href="https://awgzo.com" target="_blank">Awgzo</a>
+          </h6>
+        </div>
+
+        <!-- Zawiya -->
+        <div class="swiper-slide text-center">
+          <img src="zawiyamain.png" class="img-fluid client-logo" alt="zawiya client">
+          <h6 class="mt-2">
+            <a href="https://zawiya.com" target="_blank">Zawiya</a>
+          </h6>
+        </div>
+
+      
+
+        <div class="swiper-slide text-center">
+          <img src="assets/img/clients/client-7.png" class="img-fluid client-logo" alt="client 7">
+          <h6 class="mt-2"><a href="#">Client 7</a></h6>
+        </div>
+
+        <div class="swiper-slide text-center">
+          <img src="assets/img/clients/client-8.png" class="img-fluid client-logo" alt="client 8">
+          <h6 class="mt-2"><a href="#">Client 8</a></h6>
         </div>
 
       </div>
 
-    </section><!-- /Clients Section -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+</section>
+
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section" style="background-color: #ffffff; color: #012A4A;">
@@ -245,8 +306,14 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="testimonial-item" style="color:#012A4A;">
               <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
-              <h3 style="color:#012A4A;">Saul Goodman</h3>
-              <h4 style="color:#012A4A;">Ceo &amp; Founder</h4>
+              <h3 style="color:#012A4A;"> Shayn Ali </h3>
+        <h4 style="color:#012A4A;">
+  Founder 
+  <a href="https://fulldicount.com/" target="_blank" style="color:#012A4A; text-decoration:none;">
+    Full Discount <i class="bi bi-box-arrow-up-right" style="font-size:0.9rem; margin-left:4px;" title="Visit Full Discount"></i>
+  </a>
+</h4>
+
               <div class="stars">
                 <i class="bi bi-star-fill" style="color:#012A4A;"></i>
                 <i class="bi bi-star-fill" style="color:#012A4A;"></i>
@@ -273,37 +340,81 @@
               </p>
             </div>
           </div><!-- End testimonial item -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-item" style="color:#012A4A;">
-              <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
-              <h3 style="color:#012A4A;">Syed Bilal Ahmed </h3>
-              <h4 style="color:#012A4A;">Co Founder </h4>
-              <div class="stars">
-                <i class="bi bi-star-fill" style="color:#012A4A;"></i>
-                <i class="bi bi-star-fill" style="color:#012A4A;"></i>
-                <i class="bi bi-star-fill" style="color:#012A4A;"></i>
-                <i class="bi bi-star-fill" style="color:#012A4A;"></i>
-                <i class="bi bi-star-fill" style="color:#012A4A;"></i>
-              </div>
-              <p style="color:#012A4A;">
-                <i class="bi bi-quote quote-icon-left" style="color:#012A4A;"></i>
-                <span>
-                  Having been through a number of digital marketing agencies I was sceptical about employing another,
-                  but I have to say
-                  <b>
-                    <a href="https://zgrov.com" style="color: #012A4A;" data-bs-toggle="tooltip" data-bs-placement="top"
-                      title="Visit Zgrov's official website">
-                      Zgrov
-                    </a>
-                  </b>
-                  are a breath of fresh air. Within 3 months we saw a complete turnaround in our website performance
-                  and new enquiries went from strength-to-strength. These guys really live and breathe digital and
-                  think outside the box when it comes to campaigns and report on everything. Would highly recommend.
-                </span>
-                <i class="bi bi-quote quote-icon-right" style="color:#012A4A;"></i>
-              </p>
-            </div>
-          </div>
+         
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+  <div class="testimonial-item" style="color:#012A4A;">
+    <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt=""> -->
+    <h3 style="color:#012A4A;">Syed Bilal Ahmed </h3>
+<h4 style="color:#012A4A;">
+  Co Founder @ 
+  <a href="https://pscoders.com" target="_blank" style="color:#012A4A; text-decoration:none;">
+    pscoders <i class="bi bi-box-arrow-up-right" style="font-size:0.9rem; margin-left:4px;"></i>
+  </a>
+</h4>
+
+
+    <div class="stars">
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+    </div>
+    <p style="color:#012A4A;">
+      <i class="bi bi-quote quote-icon-left" style="color:#012A4A;"></i>
+      <span>
+        Working with 
+        <b>
+          <a href="https://zgrov.com" style="color: #012A4A;" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="Visit Zgrov's official website">
+            Zgrov
+          </a>
+        </b> 
+        has been an excellent experience. Their team is professional, responsive, and highly creative. 
+        They not only improved our online visibility but also delivered strategies that brought real business growth. 
+        I’m impressed with their transparent reporting and commitment to results. Highly recommended for anyone looking to scale online.
+      </span>
+      <i class="bi bi-quote quote-icon-right" style="color:#012A4A;"></i>
+    </p>
+  </div>
+</div>
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+  <div class="testimonial-item" style="color:#012A4A;">
+    <h3 style="color:#012A4A;">Waleed Ahmed</h3>
+    <h4 style="color:#012A4A;">
+      Founder & CEO @ 
+      <a href="https://awgzo.com" target="_blank" style="color:#012A4A; text-decoration:none;">
+        Awgzo <i class="bi bi-box-arrow-up-right" style="font-size:0.9rem; margin-left:4px;"></i>
+      </a>
+    </h4>
+
+    <div class="stars">
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+      <i class="bi bi-star-fill" style="color:#012A4A;"></i>
+    </div>
+
+    <p style="color:#012A4A;">
+      <i class="bi bi-quote quote-icon-left" style="color:#012A4A;"></i>
+      <span>
+        Partnering with 
+        <b>
+          <a href="https://zgrov.com" style="color:#012A4A;" data-bs-toggle="tooltip" data-bs-placement="top"
+            title="Visit Zgrov's official website">
+            Zgrov
+          </a>
+        </b> 
+        has been a game-changer for us at Awgzo. Their team deeply understands digital marketing and web 
+        development, and they deliver solutions that are both innovative and results-driven. 
+        What impressed me most was their ability to tailor strategies specifically to our business model, 
+        ensuring measurable growth in a short time. Their professionalism and creativity set them apart.
+      </span>
+      <i class="bi bi-quote quote-icon-right" style="color:#012A4A;"></i>
+    </p>
+  </div>
+</div>
 
         </div>
 

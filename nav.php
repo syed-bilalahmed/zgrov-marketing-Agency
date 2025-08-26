@@ -11,7 +11,7 @@
       <ul>
         <li><a href="./">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="services.php">Services</a></li>
+        <li><a href="serv.php">Services</a></li>
         <li class="dropdown"><a href="./"><span>Pricing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="pricing.php">All in Pricing</a></li>
@@ -27,7 +27,7 @@
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>
 
-  <a class="btn-getstarted" style="background-color: #012a4a; color: #fff;" data-bs-toggle="modal" data-bs-target="#applyNowModal">
+  <a class="btn-getstarted" style="background-color: #012a4a; color: #fff;" >
   Apply Now
 </a>
 
