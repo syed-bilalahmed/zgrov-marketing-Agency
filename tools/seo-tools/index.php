@@ -1,7 +1,7 @@
 <!-- seo-tools/index.php -->
 <?php include('../header.php'); ?>
 <?php include('../nav.php'); ?>
-
+<a href="./index.php" class="btn btn-primary">Back to Tools</a>
 <div class="container-fluid">
   <div class="row mt-4">
     
