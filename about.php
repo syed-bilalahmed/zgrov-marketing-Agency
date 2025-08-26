@@ -1,19 +1,10 @@
 <?php include('header.php'); ?>
-
 <body class="index-page">
-
   <?php include('nav.php'); ?>
 
-  <main class="main">
+ <main class="main mt-5 pt-5">
 
-  <br> 
-  <br> 
-  <br> 
-  <br> 
- 
 
-  
-  <!-- ===== ABOUT US SECTION ===== -->
 <section id="about-us" class="py-5">
   <div class="container">
 
@@ -22,7 +13,6 @@
       <h2 class="fw-bold">About Us</h2>
       
     </div>
-
     <!-- About Row -->
     <div class="row align-items-center mb-5">
       <div class="col-lg-6" data-aos="fade-right">
@@ -51,91 +41,104 @@
        onmouseout="this.style.transform='scale(1)';">
 </div>
 
-
     </div>
 
-    <!-- Services -->
-   <section class="services py-5">
-    <div class="text-center mb-5" data-aos="fade-up">
-      <h2 class="fw-bold"> Our Expertise</h2>
-
-    </div>
+  <!-- Services -->
+<section id="services" class="py-5">
   <div class="container">
     
-    <div class="row text-center mb-5">
+    <!-- Header -->
+    <div class="text-center mb-4" data-aos="fade-up">
+      <h6 class="text-uppercase fw-bold">Our Services</h6>
+      <h2 class="fw-bold">What We Offer</h2>
+      <p class="text-muted">
+        Comprehensive digital solutions designed to help your business grow online and stand out in the market.
+      </p>
+    </div>
+
+    <div class="row g-4">
       
-      <!-- Web Design & Development -->
-      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="100">
-        <div class="p-4 bg-white shadow rounded service-card primary">
-          <div class="mb-3 fs-1 text-primary"><i class="bi bi-window"></i></div>
-          <h5 class="fw-bold">Web Design & Development</h5>
+      <!-- Service 1 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="step-card shadow-sm h-100">
+          <div class="step-number text-warning"><i class="bi bi-bar-chart-line"></i></div>
+          <h5 class="fw-bold mt-3">SEO</h5>
+          <p>Boost your website’s visibility and rank higher on search engines with our proven SEO strategies.</p>
         </div>
       </div>
 
-      <!-- SEO -->
-      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="200">
-        <div class="p-4 bg-white shadow rounded service-card success">
-          <div class="mb-3 fs-1 text-success"><i class="bi bi-graph-up"></i></div>
-          <h5 class="fw-bold">SEO</h5>
+      <!-- Service 2 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+        <div class="step-card shadow-sm h-100">
+          <div class="step-number text-success"><i class="bi bi-code-slash"></i></div>
+          <h5 class="fw-bold mt-3">Web Development</h5>
+          <p>We design and develop modern, responsive, and user-friendly websites tailored to your business goals.</p>
         </div>
       </div>
 
-      <!-- Google Ads -->
-      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="300">
-        <div class="p-4 bg-white shadow rounded service-card warning">
-          <div class="mb-3 fs-1 text-warning"><i class="bi bi-google"></i></div>
-          <h5 class="fw-bold">Google Ads</h5>
+      <!-- Service 3 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="300">
+        <div class="step-card shadow-sm h-100">
+          <div class="step-number text-danger"><i class="bi bi-people"></i></div>
+          <h5 class="fw-bold mt-3">Social Media Marketing</h5>
+          <p>Engage your audience and grow your brand presence across major social media platforms.</p>
         </div>
       </div>
 
-      <!-- Social Media Marketing -->
-      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="400">
-        <div class="p-4 bg-white shadow rounded service-card info">
-          <div class="mb-3 fs-1 text-info"><i class="bi bi-share"></i></div>
-          <h5 class="fw-bold">Social Media Marketing</h5>
+      <!-- Service 4 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+        <div class="step-card shadow-sm h-100">
+          <div class="step-number text-primary"><i class="bi bi-google"></i></div>
+          <h5 class="fw-bold mt-3">Google Ads</h5>
+          <p>Drive instant traffic and maximize ROI with highly targeted and optimized Google Ads campaigns.</p>
         </div>
       </div>
 
-      <!-- Meta Ads -->
-      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="500">
-        <div class="p-4 bg-white shadow rounded service-card secondary">
-          <div class="mb-3 fs-1 text-secondary"><i class="bi bi-facebook"></i></div>
-          <h5 class="fw-bold">Meta Ads</h5>
+      <!-- Service 5 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+        <div class="step-card shadow-sm h-100">
+          <div class="step-number text-info"><i class="bi bi-megaphone"></i></div>
+          <h5 class="fw-bold mt-3">Meta Ads</h5>
+          <p>Reach your ideal audience on Facebook and Instagram with strategic Meta Ads campaigns.</p>
         </div>
       </div>
 
-      <!-- Graphic Design -->
-      <div class="col-md-4 mb-4" data-aos="zoom-in" data-aos-delay="600">
-        <div class="p-4 bg-white shadow rounded service-card danger">
-          <div class="mb-3 fs-1 text-danger"><i class="bi bi-brush"></i></div>
-          <h5 class="fw-bold">Graphic Design</h5>
+      <!-- Service 6 -->
+      <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+        <div class="step-card shadow-sm h-100">
+          <div class="step-number text-purple"><i class="bi bi-palette"></i></div>
+          <h5 class="fw-bold mt-3">Graphic Design</h5>
+          <p>Creative designs that capture attention and strengthen your brand identity across all platforms.</p>
         </div>
       </div>
-
+      
     </div>
   </div>
 </section>
 
+<!-- CSS -->
 <style>
-  .service-card i {
-  transition: color 0.3s ease;
-}
-
-.service-card i {
-  transition: color 0.3s ease;
-}
-
-/* On hover: icon gets its theme color */
-.service-card.primary:hover i { color: #0d6efd !important; }
-.service-card.success:hover i { color: #198754 !important; }
-.service-card.warning:hover i { color: #ffc107 !important; }
-.service-card.info:hover i    { color: #0dcaf0 !important; }
-.service-card.secondary:hover i { color: #6c757d !important; }
-.service-card.danger:hover i  { color: #dc3545 !important; }
-
+  .step-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .step-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  }
+  .step-number {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .text-purple {
+    color: #9c27b0;
+  }
 </style>
-
-
+ <hr>
+  <br>
     <!-- 6-D Process -->
     <div class="text-center mb-4" data-aos="fade-up">
       <h6 class="text-uppercase fw-bold">Our Process</h6>
@@ -246,21 +249,12 @@
   </main>
 
  <?php include('footer.php'); ?>
+ <?php include('script.php'); ?>
 
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-
-  <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
 
 </body>
 

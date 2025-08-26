@@ -2,164 +2,156 @@
 
 <body class="index-page">
 
-<?php include('nav.php'); ?>
+  <?php include('nav.php'); ?>
 
-<main class="main">
+  <main class="main">
 
-<br><br>
-<!-- Pricing Section -->
-<section id="pricing" class="pricing section light-background">
+    <br><br>
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section light-background">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Pricing</h2>
-    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-  </div>
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>Choose the plan that fits your business needs</p>
+      </div>
 
-  <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-    <!-- Toggle Buttons -->
-    <div class="pricing-toggle text-center mb-4">
-      <button id="monthlyBtn" class="btn btn-primary me-2" style="background-color: #37729F; color: white;">Monthly</button>
-<button id="yearlyBtn" class="btn btn-outline-primary" style="background-color: white; color: #37729F;">Yearly</button>
-
-    </div>
-
-    <!-- SINGLE PLANS BLOCK -->
-    <div class="row g-4 justify-content-center" id="plans">
-
-      <!-- Basic Plan -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-        <div class="pricing-card">
-          <h3>Basic Plan</h3>
-          <div class="price">
-            <span class="currency">$</span>
-            <span class="amount" data-monthly="9.9" data-yearly="99">9.9</span>
-            <span class="period">/ month</span>
-          </div>
-          <p class="description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam.</p>
-          <h4>Features Included:</h4>
-          <ul class="features-list">
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Duis aute irure dolor</li>
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Excepteur sint occaecat</li>
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Nemo enim ipsam voluptatem</li>
-          </ul>
-         <a href="#" class="btn btn-primary" style="background-color: #37729F; border-color: #37729F; color: white;">
-  Buy Now <i class="bi bi-arrow-right"></i>
-</a>
-
+      <!-- Toggle Buttons -->
+      <div class="text-center mb-4">
+        <div class="btn-group" role="group">
+          <button id="monthlyBtn" class="btn btn-primary me-2" style="background-color: #012A4A; color: white;">Monthly</button>
+          <button id="yearlyBtn" class="btn btn-outline-primary" style="background-color: white; color: #012A4A;">Yearly</button>
         </div>
       </div>
 
-      <!-- Standard Plan -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-        <div class="pricing-card popular" style="border-top: 5px solid #37729F; background-color: #37729F; color: white;">
-          <div class="popular-badge" style="background-color: white; color: #37729F;">Most Popular</div>
-          <h3 style="color: white;">Standard Plan</h3>
-          <div class="price" style="color: white;">
-            <span class="currency">$</span>
-            <span class="amount" data-monthly="19.9" data-yearly="199">19.9</span>
-            <span class="period">/ month</span>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row g-4 justify-content-center" id="plans">
+
+          <!-- Basic Plan -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="pricing-card">
+              <h3>Basic Plan</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="amount" data-monthly="200" data-yearly="2200">200</span>
+                <span class="period">/ month</span>
+              </div>
+              <ul class="features-list">
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Social Channels (Facebook + Instagram)</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Social Media Audit</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Three Posts per week</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Page Setup & Management</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Content Creation</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Hashtag Optimization</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Advertisement (Payment Not Included)</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Monthly Reporting</li>
+              </ul>
+              <a href="https://wa.me/923001234567" target="_blank"" class=" btn btn-primary" style="background-color: #012A4A; border-color: #012A4A; color: white;">
+                Get Started <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
           </div>
-          <p class="description" style="color: #e0e0e0;">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum.</p>
-          <h4 style="color: white;">Features Included:</h4>
-          <ul class="features-list">
-            <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Lorem ipsum dolor sit amet</li>
-            <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Consectetur adipiscing elit</li>
-            <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Sed do eiusmod tempor</li>
-            <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Ut labore et dolore magna</li>
-          </ul>
-        <a href="#" class="btn btn-primary" style="background-color: #ffffffff; border-color: #37729F; color: #37729F;">
-  Buy Now <i class="bi bi-arrow-right"></i>
-</a>
 
-        </div>
-      </div>
-
-      <!-- Premium Plan -->
-      <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-        <div class="pricing-card">
-          <h3>Premium Plan</h3>
-          <div class="price">
-            <span class="currency">$</span>
-            <span class="amount" data-monthly="39.9" data-yearly="399">39.9</span>
-            <span class="period">/ month</span>
+          <!-- Standard Plan -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="pricing-card popular" style="border-top: 5px solid #012A4A; background-color: #012A4A; color: white;">
+              <div class="popular-badge" style="background-color: white; color: #012A4A;">Most Popular</div>
+              <h3 style="color: white;">Standard Plan</h3>
+              <div class="price" style="color: white;">
+                <span class="currency">$</span>
+                <span class="amount" data-monthly="300" data-yearly="3400">300</span>
+                <span class="period">/ month</span>
+              </div>
+              <ul class="features-list">
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Social Channels (Facebook + Instagram + Twitter)</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Social Media Audit</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Five Posts per week</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Page Setup & Management</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Content Creation</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Hashtag Optimization</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Community Management</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Engagement Campaigns</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Advertisement (Payment Not Included)</li>
+                <li><i class="bi bi-check-circle-fill" style="color: white;"></i> Monthly Reporting</li>
+              </ul>
+              <a href="https://wa.me/923001234567" target="_blank"" class=" btn btn-primary" style="background-color: #fff; border-color: #012A4A; color: #012A4A;">
+                Get Started <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
           </div>
-          <p class="description">Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae.</p>
-          <h4>Features Included:</h4>
-          <ul class="features-list">
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Temporibus autem quibusdam</li>
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Saepe eveniet ut et voluptates</li>
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Nam libero tempore soluta</li>
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Cumque nihil impedit quo</li>
-            <li><i class="bi bi-check-circle-fill" style="color: #37729F;"></i> Maxime placeat facere possimus</li>
-          </ul>
-        <a href="#" class="btn btn-primary" style="background-color: #37729F; border-color: #37729F; color: white;">
-  Buy Now <i class="bi bi-arrow-right"></i>
-</a>
 
-    
-        </div>
+          <!-- Premium Plan -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="pricing-card">
+              <h3>Premium Plan</h3>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="amount" data-monthly="500" data-yearly="5500">500</span>
+                <span class="period">/ month</span>
+              </div>
+              <ul class="features-list">
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Social Channels (Facebook + Instagram + Twitter + Quora + Reddit + Pinterest + LinkedIn)</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Social Media Audit</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Seven Posts per week</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Page Setup & Management</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Content Creation</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Community Management</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Engagement Campaigns</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Reputation Management</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Hashtag Optimization</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Advertisement (Payment Not Included)</li>
+                <li><i class="bi bi-check-circle-fill" style="color: #012A4A;"></i> Monthly Reporting</li>
+              </ul>
+              <a href="https://wa.me/923001234567" target="_blank"" class=" btn btn-primary" style="background-color: #012A4A; border-color: #012A4A; color: white;">
+                Get Started <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+
+        </div><!-- End Plans -->
       </div>
+    </section>
 
-    </div><!-- End Plans -->
+  </main>
 
-  </div>
+  <?php include('footer.php'); ?>
 
-</section>
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
-</main>
+  <?php include('script.php'); ?>
 
-<?php include('footer.php'); ?>
+  <script>
+    const monthlyBtn = document.getElementById('monthlyBtn');
+    const yearlyBtn = document.getElementById('yearlyBtn');
+    const amounts = document.querySelectorAll('.amount');
+    const periodLabels = document.querySelectorAll('.period');
 
-<!-- Scroll Top -->
-<a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
-  <i class="bi bi-arrow-up-short"></i>
-</a>
+    monthlyBtn.addEventListener('click', () => {
+      amounts.forEach(a => a.textContent = a.dataset.monthly);
+      periodLabels.forEach(p => p.textContent = '/ month');
+      monthlyBtn.classList.add('btn-primary');
+      monthlyBtn.classList.remove('btn-outline-primary');
+      yearlyBtn.classList.add('btn-outline-primary');
+      yearlyBtn.classList.remove('btn-primary');
+      monthlyBtn.style.backgroundColor = '#012A4A';
+      monthlyBtn.style.color = 'white';
+      yearlyBtn.style.backgroundColor = 'white';
+      yearlyBtn.style.color = '#012A4A';
+    });
 
-<?php include('script.php'); ?>
-
-<script>
-  const monthlyBtn = document.getElementById('monthlyBtn');
-const yearlyBtn = document.getElementById('yearlyBtn');
-const amounts = document.querySelectorAll('.amount');
-const periodLabels = document.querySelectorAll('.period');
-
-monthlyBtn.addEventListener('click', () => {
-  amounts.forEach(a => a.textContent = a.dataset.monthly);
-  periodLabels.forEach(p => p.textContent = '/ month');
-
-  // Update classes
-  monthlyBtn.classList.add('btn-primary');
-  monthlyBtn.classList.remove('btn-outline-primary');
-  yearlyBtn.classList.add('btn-outline-primary');
-  yearlyBtn.classList.remove('btn-primary');
-
-  // Update background colors
-  monthlyBtn.style.backgroundColor = '#37729F';  // dark color
-  monthlyBtn.style.color = 'white';
-  yearlyBtn.style.backgroundColor = 'white';      // white bg for inactive
-  yearlyBtn.style.color = '#37729F';
-});
-
-yearlyBtn.addEventListener('click', () => {
-  amounts.forEach(a => a.textContent = a.dataset.yearly);
-  periodLabels.forEach(p => p.textContent = '/ year');
-
-  // Update classes
-  yearlyBtn.classList.add('btn-primary');
-  yearlyBtn.classList.remove('btn-outline-primary');
-  monthlyBtn.classList.add('btn-outline-primary');
-  monthlyBtn.classList.remove('btn-primary');
-
-  // Update background colors
-  yearlyBtn.style.backgroundColor = '#37729F';  // dark color
-  yearlyBtn.style.color = 'white';
-  monthlyBtn.style.backgroundColor = 'white';   // white bg for inactive
-  monthlyBtn.style.color = '#37729F';
-});
-
-</script>
-
-</body>
-</html>
+    yearlyBtn.addEventListener('click', () => {
+      amounts.forEach(a => a.textContent = a.dataset.yearly);
+      periodLabels.forEach(p => p.textContent = '/ year');
+      yearlyBtn.classList.add('btn-primary');
+      yearlyBtn.classList.remove('btn-outline-primary');
+      monthlyBtn.classList.add('btn-outline-primary');
+      monthlyBtn.classList.remove('btn-primary');
+      yearlyBtn.style.backgroundColor = '#012A4A';
+      yearlyBtn.style.color = 'white';
+      monthlyBtn.style.backgroundColor = 'white';
+      monthlyBtn.style.color = '#012A4A';
+    });
+  </script>

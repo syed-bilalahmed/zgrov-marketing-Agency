@@ -1,21 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>ZGrov</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+
+  <!-- Primary Meta Tags -->
+  <title>ZGrov - Digital Marketing & Web Development Agency</title>
+  <meta name="title" content="ZGrov - Digital Marketing & Web Development Agency">
+  <meta name="description" content="ZGrov helps businesses grow with expert SEO, Web Development, Social Media Marketing, Google Ads, Meta Ads, and Graphic Design services. Boost your online presence today!">
+  <meta name="keywords" content="ZGrov, Digital Marketing Agency, SEO, Web Development, Social Media Marketing, Google Ads, Meta Ads, Graphic Design, Online Marketing, Branding">
 
   <!-- Favicons -->
-  <link href="Z grov logo.png" rel="icon">
-  <link href="" rel="">
+  <link href="images/Zgrovlogo.png" rel="icon" type="image/png">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://zgrov.com/">
+  <meta property="og:title" content="ZGrov - Digital Marketing & Web Development Agency">
+  <meta property="og:description" content="We provide SEO, Web Development, Social Media Marketing, Google Ads, Meta Ads & Graphic Design to grow your business online.">
+  <meta property="og:image" content="https://zgrov.com/Zgrovlogo.png">
+
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Inter:wght@400;700&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,24 +33,5 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-  <style>
-    .header .logo img {
-    max-height: 69px;
-    margin-right: 8px;
-}
-
-.logo {
-  display: flex;
-  align-items: center;     /* vertically align logo & text */
-  text-decoration: none;
-}
-
-.logo .sitename {
-  font-size: 24px;
-  margin: 0;
-  white-space: nowrap;     /* keep text in one line */
-}
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>

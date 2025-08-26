@@ -1576,18 +1576,22 @@ section,
   width: 12px;
   height: 12px;
   opacity: 1;
-  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  background-color: rgba(19, 65, 85, 0.2); /* same as color-mix */
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--accent-color);
+  background-color: #134155;
+  transform: scale(1.3); /* makes active bullet pop */
+  border-radius: 50%; /* ensure circle stays neat */
 }
+
 
 /*--------------------------------------------------------------
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
-  background-color: var(--surface-color);
+  background-color: #ffffff;
   box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.08);
   padding: 30px;
   position: relative;
@@ -1597,7 +1601,7 @@ section,
 .testimonials .testimonial-item .testimonial-img {
   width: 90px;
   border-radius: 50px;
-  border: 6px solid var(--background-color);
+  border: 6px solid #134155;
   float: left;
   margin: 0 10px 0 0;
 }

@@ -11,7 +11,7 @@
 
   <br> 
   <br> 
- <section class="contact-section">
+ <section  style="background-color: #f9f9f9;" class="contact-section">
   <!-- Top cards -->
   <div class="contact-info-boxes">
     <div class="info-box">
@@ -46,10 +46,10 @@
 
       <h6>SOCIAL NETWORKING:</h6>
       <div class="social-icons">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-whatsapp"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61561047704903"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com/zgrovdm/"><i class="fab fa-instagram"></i></a>
+        <a href="https://wa.me/message/6U42SYUIKTTJP1"><i class="fab fa-whatsapp"></i></a>
+        <a href="https://www.linkedin.com/company/zgrov/"><i class="fab fa-linkedin"></i></a>
       </div>
     </div>
 
@@ -104,26 +104,26 @@
 
 .info-box:hover {
   transform: translateY(-5px);
-  border-color: #37729F;
+  border-color: #012A4A;
   box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .icon-circle {
   width: 70px;
   height: 70px;
-  border: 2px solid #37729F;
+  border: 2px solid #012A4A;
   border-radius: 50%;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #37729F;
+  color: #012A4A;
   font-size: 1.5rem;
   transition: all 0.3s ease;
 }
 
 .info-box:hover .icon-circle {
-  background: linear-gradient(135deg, #012a4a, #37729F);
+  background: linear-gradient(135deg, #012a4a, #012A4A);
   border-color: transparent;
   color: #fff;
 }
@@ -182,7 +182,7 @@
 }
 
 .social-icons a:hover {
-  background: linear-gradient(135deg, #012a4a, #37729F);
+  background: linear-gradient(135deg, #012a4a, #012A4A);
   color: #fff;
 }
 
@@ -209,7 +209,7 @@
 }
 
 .contact-right button {
-  background: #37729F;
+  background: #012A4A;
   color: #fff;
   border: none;
   padding: .75rem;

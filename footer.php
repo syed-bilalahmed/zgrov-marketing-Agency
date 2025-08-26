@@ -1,5 +1,5 @@
 
-<footer id="footer" class="footer" style="background-color:#37729F; color:#fff; padding:40px 0;">
+<footer id="footer" class="footer" style="background-color:#012A4A; color:#fff; padding:40px 0;">
 
   <div class="container footer-top">
     <div class="row gy-4">
@@ -15,20 +15,34 @@
           <p class="mt-3"><strong>Phone:</strong> <span>+92 345 6246942</span></p>
           <p><strong>Email:</strong> <span>info@zgrov.com</span></p>
         </div>
-        <div class="social-links d-flex mt-4" style="gap:10px;">
-          <a href="#" style="color:#37729F; background:#fff; width:35px; height:35px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
-            <i class="bi bi-twitter-x"></i>
-          </a>
-          <a href="#" style="color:#37729F; background:#fff; width:35px; height:35px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
-            <i class="bi bi-facebook"></i>
-          </a>
-          <a href="#" style="color:#37729F; background:#fff; width:35px; height:35px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
-            <i class="bi bi-instagram"></i>
-          </a>
-          <a href="#" style="color:#37729F; background:#fff; width:35px; height:35px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
-            <i class="bi bi-linkedin"></i>
-          </a>
-        </div>
+        <div class="social-links mt-4 ">
+
+  <!-- Heading -->
+  <span class="sitename d-block mb-3" style="font-size:24px; font-weight:bold; color:#fff;">
+    Social Links
+  </span>
+
+  <!-- Icons -->
+  <div class="d-flex " style="gap:10px;">
+    <a href="https://wa.me/message/6U42SYUIKTTJP1" 
+       style="color:#012A4A; background:#fff; width:40px; height:40px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
+      <i class="bi bi-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com/profile.php?id=61561047704903" 
+       style="color:#012A4A; background:#fff; width:40px; height:40px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
+      <i class="bi bi-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/zgrovdm/" 
+       style="color:#012A4A; background:#fff; width:40px; height:40px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
+      <i class="bi bi-instagram"></i>
+    </a>
+    <a href="https://www.linkedin.com/company/zgrov/" 
+       style="color:#012A4A; background:#fff; width:40px; height:40px; display:flex; align-items:center; justify-content:center; border-radius:50%; transition:0.3s;">
+      <i class="bi bi-linkedin"></i>
+    </a>
+  </div>
+</div>
+
       </div>
 
       <!-- Useful Links -->
@@ -51,10 +65,11 @@
           Our Services
         </h4>
         <ul style="list-style:none; padding:0; margin:0;">
-          <li><a href="#" style="color:#fff; text-decoration:none;">Web Design</a></li>
+          <li><a href="#" style="color:#fff; text-decoration:none;">SEO</a></li>
           <li><a href="#" style="color:#fff; text-decoration:none;">Web Development</a></li>
-          <li><a href="#" style="color:#fff; text-decoration:none;">Product Management</a></li>
-          <li><a href="#" style="color:#fff; text-decoration:none;">Marketing</a></li>
+          <li><a href="#" style="color:#fff; text-decoration:none;">Social Media Marketing</a></li>
+          <li><a href="#" style="color:#fff; text-decoration:none;">Google Ads</a></li>
+          <li><a href="#" style="color:#fff; text-decoration:none;">Meta  Ads</a></li>
           <li><a href="#" style="color:#fff; text-decoration:none;">Graphic Design</a></li>
         </ul>
       </div>
@@ -80,7 +95,7 @@
 
   <!-- Copyright -->
   <div class="container copyright text-center mt-4" style="border-top:1px solid rgba(255,255,255,0.2); padding-top:15px;">
-    <p>© <span>Copyright</span> <strong class="px-1 sitename">ZGrov</strong> <span>All Rights Reserved</span></p>
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">ZGROV (SMC-PRIVATE) LIMITED</strong> <span>All Rights Reserved 2025</span></p>
     <div class="credits">
       Developed by <a href="https://www.linkedin.com/in/syed-bilalahmed/" style="color:#fff; font-weight:bold;">Syed Bilal Ahmed</a>
     </div>
