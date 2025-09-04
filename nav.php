@@ -11,7 +11,7 @@
       <ul>
         <li><a href="./">Home</a></li>
         <li><a href="about.php">About</a></li>
-        <li><a href="serv.php">Services</a></li>
+        <li><a href="service.php">Services</a></li>
         <li class="dropdown"><a href="./"><span>Pricing</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
           <ul>
             <li><a href="pricing.php">All in Pricing</a></li>
